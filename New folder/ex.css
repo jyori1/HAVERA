@@ -1,0 +1,113 @@
+.words {
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif; /*change font */
+    font-weight:400; /* boldness */
+    line-height:1.8em;
+    color:#666;
+}
+
+
+header{
+    background-attachment:scroll;
+}
+
+.logo {
+    float: left;
+    width:75px;
+    height:auto;
+}
+
+.pimg, .pimg2, .pimg3{
+    position:relative;
+    opacity:100; /*nani change 0.7 */
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    /*fixed = parallax
+    scroll = normal
+   */
+}
+
+.pimg{
+    background-image:url("https://wallpaperaccess.com/full/50476.jpg");
+    min-height:100%;
+    /* full size background  = 100%*/
+}
+
+.pimg2{
+    background-image:url("https://www.technocrazed.com/wp-content/uploads/2015/12/city-wallpaper-34.jpg");
+    min-height:400px;
+
+    /* takes up a certain amount of space */
+}
+
+.pimg3{
+    background-image:url("https://copdnewstoday.com/wp-content/uploads/2019/01/shutterstock_591890219_zpskkflwfoy.jpg");
+    min-height:400px;
+}
+
+/* fade in */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.section{
+
+    text-align:center;
+    padding:50px 80px;
+  /*  animation: fadeIn 5s; could change fade-in time */
+}
+
+.sec1{
+    animation: fadeIn 5s;
+}
+
+.section-light{
+    background-color:#f4f4f4;
+    color:#666;
+}
+
+.section-dark{
+ background-color:#282e34;
+    color:#ddd;
+
+}
+
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+
+}
+
+.ptext .border {
+  background-color:rgba(109, 26, 54, 0.75);
+  color:#fff;
+  padding:20px;
+}
+
+
+/* make it transparent? */
+.ptext .border.trans{
+    background-color:transparent;
+}
+
+/*
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment:scroll;
+}*/

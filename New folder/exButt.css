@@ -1,0 +1,53 @@
+/* Container needed to position the button. Adjust the width as needed */
+.inner {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.inner img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.inner .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: RGBA(255,255,255,0.5);
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  /* border-radius: 5px; */
+  text-decoration: none;
+  color: RGBA(11,57,84,1);
+  padding: 5px 20px;
+  border: 1px solid transparent;  /* #fff solid border if not transparent */
+  transition: 0.6s ease;
+  font-weight: bold;
+}
+
+.inner .btn:hover {
+  background-color: RGBA(11,57,84,1);
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

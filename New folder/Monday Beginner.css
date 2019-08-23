@@ -1,0 +1,21 @@
+.exercises {
+  background-color:#BFD7EA;
+}
+
+
+/* h1 */
+.exercises {
+   text-align: center;
+   font-size: 90px;
+   text-transform:uppercase;
+   color:white;
+
+}
+
+img{
+  height: 400px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,1650 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Advanced</title>
+        <link rel="stylesheet" href="ex.css">
+        <link rel="stylesheet" href="heading.css">
+        <link rel="stylesheet" href="first.css">
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="Monday Beginner.css">
+            <link rel="stylesheet" href="conf.css">
+        <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+         <!-- imported from google fonts -->
+
+         <script>
+                           var yay = new Audio();
+                           yay.src = "Yay.mp3";
+                       </script>
+             </head>
+         <body>
+         <script src="conR.js" type="text/javascript"></script>
+           <script src="10sec.js" type="text/javascript"></script>
+ <header>
+     <!-- <style> background-attachment:scroll;  </style> -->
+    <div class="main">
+        <div class="logo">
+            <img src="logo.png"> <!-- insert logo -->
+        </div>
+        <ul>
+            <li><a href="parallax.html">Home</a> </li>
+            <li><a href="exercise.html">Exercise</a> </li>
+            <li><a href="contact.html">Contact</a> </li>
+        </ul>
+       </div>
+
+        <div class="title">
+            <h1>Advanced Exercises</h1>
+        </div>
+    </header>
+
+        <div id="options">
+        <section class="section section-light">
+          <div class="words">
+            <h2>We have several different exercises to choose from!</h2>
+            <h3>Daily Exercise</h3>
+             <p> The <strong>Daily Exercises</strong> are customized for every single day of the week, Wednesday will routinely be your rest day. The exercises progressively get longer and harder as you transition from Beginner, Intermediate, and Advanced. It is best recommended to start with the Beginner exercises within your first month. Then, transition to other levels when you feel the time is right!</p>
+             <h3>Goal-Orientated Exercise</h3>
+             <p> The <strong>Goal Orientated Exercises</strong> focus on specific parts of your body. You’ll be able to pick from either developing your legs, arms, and/or abs. From your choice, we’ll be able to gather exercises that are distinctly targeting those points. For each exercise in the routine, you’ll be given a 10 seconds rest between. Meanwhile, you complete as many reps as possible within your 30 seconds interval.</p>
+             <h3>7-Minute Workout</h3>
+             <p> In 12 exercises deploying only body weight, a chair and a wall, the <strong>7-Minute Workout</strong> essentially combines a long run and a visit to the weight room into about seven minutes of steady discomfort — all of it based on science. You are supposed to do as many reps as possible for each exercise within each 30 second slot, this allows you to maximize the intensity of your exercise while also minimizing its duration. For more notable results, you can repeat this routine 2-3 times as a whole workout, yet such a high-intensity routine should only be done once every two days. </p>
+             </div>
+                 <!-- button -->
+                 <div class="btn-group" style="width:100%">
+                      <button style="width:33.33%" onclick="showDaily()">Daily Exercise</button>
+                     <button style="width:33.33%" onclick="hello()">Goal Orientated Exercise</button>
+                      <button style="width:33.33%" onclick="showRec()">7-Minute Workout</button>
+                 </div>
+                 </section>
+                 </div>
+
+                <!-- text on image 2 -->
+
+                <div id="dailyheader" style="display:block">
+
+                 <div class="pimg2">
+              <div class="ptext">
+               <span class="border" id="workout"></span>
+             </div>
+            </div>
+            </div>
+
+
+    <!--section text 2 -->
+    <div id="parts">
+      <section class="section section-dark">
+          <h2>Concentrated Development</h2>
+             <p>
+               Which body part would you like to develop?
+              </p>
+               <!-- button -->
+               <div class="btn-group" style="width:100%">
+                   <button style="width:33.3%" onclick="showArm()">Arms</button>
+                   <button style="width:33.3%" onclick="showLeg()">Legs</button>
+                   <button style="width:33.3%" onclick="showAb()">Abs</button>
+               </div>
+               </section>
+                  </div>
+    <!-- text on image 3-->
+
+    <!-- spootify -->
+    <section class="section" id="music">
+      <h2 class="impact"><em>EXERCISE TO THE MUSIC!</em></h2>
+    <p class="songg"><iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX70RN3TfWWJh" width="300" align="center" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
+    <h2 class="impact"><em>Set the Countdown to the Recommended Time!!</em></h2>
+    <param name="movie" value="https://www.online-stopwatch.com/swf/online-stopwatch.swf" /><param name="quality" value="high" /><param name="menu" value="true" /><embed width="400" height="220" src="https://www.online-stopwatch.com/swf/online-stopwatch.swf" quality="high" pluginspage="https://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
+</section>
+    <!-- spootify -->
+
+
+<!-- body part -->
+
+<div id="armWork" class="exercises">
+     <div id="AStart">
+           <p>ARM WORKOUT</p>
+
+           <img src="https://uploads-cdn.thgblogs.com/wp-content/uploads/sites/509/2018/07/10202549/Webp.net-compress-image-23_1200x672_acf_cropped.jpg" style="width:500px;height:310px;">
+ <font size="10">*Don't forget to drink water*</font>
+             <a href="#" onclick="return show('APage1','AStart');"><button class="buttonGO"> START! </button></a>
+           </div>
+             <div id="APage1" style="display:none">
+             Diamond Push-Ups
+             <img src="https://media.giphy.com/media/lSxZl0cnpVuWS5SRnw/giphy.gif">
+              30s
+               <a href="#" onclick="return show('AREST1','APage1');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AREST1" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('APage2','AREST1');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="APage2" style="display:none">
+               Arm Circles
+                 <img src="https://media.giphy.com/media/fsKH8Rt5EabaMlOidp/giphy.gif">
+               30s
+               <a href="#" onclick="return show('AREST2','APage2');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AREST2" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('APage3','AREST2');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="APage3" style="display:none">
+               Punches
+               <img src="https://media.giphy.com/media/XyCAvgCW4LhJd9Cfvt/giphy.gif">
+               30s
+               <a href="#" onclick="return show('AREST3','APage3');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AREST3" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('APage4','AREST3');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="APage4" style="display:none">
+               Tricep Dips
+               <img src="https://media.giphy.com/media/MZvbixnXsuyHWOrCGQ/giphy.gif">
+                 30s
+                 <a href="#" onclick="return show('AREST4','APage4');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AREST4" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('APage5','AREST4');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="APage5" style="display:none">
+               Reverse Push-Ups
+               <img src="https://media.giphy.com/media/TgON0Pgzeb12TtBst0/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('AREST5','APage5');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AREST5" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('APage6','AREST5');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="APage6" style="display:none">
+               Punches
+               <img src="https://media.giphy.com/media/XyCAvgCW4LhJd9Cfvt/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('AREST6','APage6');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AREST6" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('APage7','AREST6');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="APage7" style="display:none">
+               Plank Taps
+               <img src="https://media.giphy.com/media/J1vTdUP0zNrC1Y7BPN/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('AREST7','APage7');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AREST7" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('APage8','AREST7');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="APage8" style="display:none">
+               Triceps Stretch Right
+               <img src="https://media.giphy.com/media/VHpq712NG4noKkAPLJ/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('AREST8','APage8');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AREST8" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('APage9','AREST8');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="APage9" style="display:none">
+               Triceps Stretch Left
+               <img src="https://media.giphy.com/media/iEq2AdLFaVrmFgTK1m/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('AREST9','APage9');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AREST9" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('APage10','AREST9');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="APage10" style="display:none">
+               Shoulder Stretch
+               <img src="https://media.giphy.com/media/QZCs2QnTUsSEx7ukGI/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('AREST10','APage10');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AREST10" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('APage11','AREST10');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="APage11" style="display:none">
+               Up-and-Down Planks
+               <img src="https://media.giphy.com/media/Yq1yBWa2AgHuQKkKJD/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('AREST11','APage11');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AREST11" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('APage12','AREST11');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="APage12" style="display:none">
+               Side-Arm Raise
+               <img src="https://media.giphy.com/media/fwVqKIyUymn5Wj0o21/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('AREST12','APage12');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AREST12" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('APage13','AREST12');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="APage13" style="display:none">
+               Push-Ups
+               <img src="https://media.giphy.com/media/h7zxHy0bSJg7hwtZkO/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('AREST13','APage13');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AREST13" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('APage14','AREST13');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="APage14" style="display:none">
+               One-Leg Push-Ups
+               <img src="https://media.giphy.com/media/lTSo1MllILaliLSkm5/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('AGOAL','APage14');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="AGOAL" style="display:none">
+               CONGRATS! YOU MADE IT THROUGH!
+           <div id="overlay"><center><img class = center src="http://ift.tt/2BOwjd9"></center> </div>
+               <canvas id="canvas"></canvas>
+           <embed src="Yay.mp3"
+            autostart="true"
+            hidden="false"
+            loop="false">
+            <noembed><bgsound src="Yay.mp3" loop="1"></noembed>
+            </embed>
+
+           </div>
+   </div>
+   </div>
+
+   <div id="legWork" class="exercises">
+     <div id="LStart">
+           <p>LEG WORKOUT</p>
+
+           <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/thigh-exercise-1557754707.jpg">
+           <font size="10">*Don't forget to drink water*</font>
+             <a href="#" onclick="return show('LPage1','LStart');"><p><button class="buttonGO"> START! </button></a>
+           </div>
+             <div id="LPage1" style="display:none">
+             Calf Raises
+             <img src="https://media.giphy.com/media/XybSr7IwopWhDODRNR/giphy.gif">
+              30s
+               <a href="#" onclick="return show('LREST1','LPage1');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LREST1" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('LPage2','LREST1');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LPage2" style="display:none">
+               Curtsy Lunges
+                 <img src="https://media.giphy.com/media/eNR84UTWfji1iMMN0E/giphy.gif">
+               30s
+               <a href="#" onclick="return show('LREST2','LPage2');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LREST2" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('LPage3','LREST2');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LPage3" style="display:none">
+               Single-Left Leg Calf Raises
+               <img src="https://media.giphy.com/media/f6P5v7iU9wRfhcVU8m/giphy.gif">
+               30s
+               <a href="#" onclick="return show('LREST3','LPage3');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LREST3" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('LPage4','LREST3');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LPage4" style="display:none">
+               Side Lunges
+               <img src="https://media.giphy.com/media/Phff61YSgCEKb1pl5i/giphy.gif">
+                 30s
+                 <a href="#" onclick="return show('LREST4','LPage4');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LREST4" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('LPage5','LREST4');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LPage5" style="display:none">
+               Left-Lunge Knee Hops
+               <img src="https://media.giphy.com/media/lnn4AcFWpvYlo1eRA1/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('LREST5','LPage5');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LREST5" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('LPage6','LREST5');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LPage6" style="display:none">
+               Single-Right Leg Calf Raises
+               <img src="https://media.giphy.com/media/Qa5dGiWaBcBkYFRxYM/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('LREST6','LPage6');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LREST6" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('LPage7','LREST6');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LPage7" style="display:none">
+               Bottom Leg Lift Left
+               <img src="https://media.giphy.com/media/loitncp9hkWQoUH35W/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('LREST7','LPage7');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LREST7" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('LPage8','LREST7');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LPage8" style="display:none">
+               Bottom Leg Lift Right
+               <img src="https://media.giphy.com/media/loitncp9hkWQoUH35W/giphy.gif
+   ">
+               30s
+                 <a href="#" onclick="return show('LREST8','LPage8');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LREST8" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('LPage9','LREST8');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LPage9" style="display:none">
+               Right Lunge Knee Hops
+               <img src="https://media.giphy.com/media/lmv44ouGg8V2GwiJn0/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('LREST9','LPage9');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LREST9" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('LPage10','LREST9');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LPage10" style="display:none">
+               Side Leg Circles Left
+               <img src="https://media.giphy.com/media/UsSH6Dl9roWojDSNQS/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('LREST10','LPage10');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LREST10" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('LPage11','LREST10');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LPage11" style="display:none">
+               Side Leg Circles Right
+               <img src="https://media.giphy.com/media/UsSH6Dl9roWojDSNQS/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('LREST11','LPage11');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LREST11" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('LPage12','LREST11');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LPage12" style="display:none">
+               Backwards Lunge With Front Kick Left
+               <img src="https://media.giphy.com/media/hTUB0wzCbIQ9yAWKSK/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('LREST12','LPage12');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LREST12" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('LPage13','LREST12');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="LPage13" style="display:none">
+               Backwards Lunge With Front Kick Right
+               <img src="https://media.giphy.com/media/hTUB0wzCbIQ9yAWKSK/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('LGOAL','LPage13');"><p><button class="buttonNEXT"> NEXT! </button></a>
+               </div>
+               <div id="LGOAL" style="display:none">
+                CONGRATS! YOU MADE IT THROUGH!
+           <div id="overlay"><center><img class = center src="http://ift.tt/2BOwjd9"></center> </div>
+               <canvas id="canvas"></canvas>
+           <embed src="Yay.mp3"
+            autostart="true"
+            hidden="false"
+            loop="false">
+            <noembed><bgsound src="Yay.mp3" loop="1"></noembed>
+            </embed>
+
+           </div>
+   </div>
+   </div>
+
+   <div id="abWork" class="exercises">
+     <div id="BStart">
+           <p>AB WORKOUT</p>
+
+           <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/beautiful-fit-young-woman-royalty-free-image-1130300443-1556299661.jpg">
+           <font size="10">*Don't forget to drink water*</font>
+             <a href="#" onclick="return show('BPage1','BStart');"><p><button class="buttonGO"> START! </button></a>
+           </div>
+             <div id="BPage1" style="display:none">
+             One Leg Push-Ups
+             <img src="https://media.giphy.com/media/lTSo1MllILaliLSkm5/giphy.gif">
+              30s
+               <a href="#" onclick="return show('BREST1','BPage1');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BREST1" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('BPage2','BREST1');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BPage2" style="display:none">
+               One Leg Bridge
+                 <img src="IMG_1232.JPG">
+               30s
+               <a href="#" onclick="return show('BREST2','BPage2');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BREST2" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('BPage3','BREST2');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BPage3" style="display:none">
+               Cross-Arm Crunches
+               <img src="https://media.giphy.com/media/kFHXEFP2OVzD0GmRKp/giphy.gif">
+               30s
+               <a href="#" onclick="return show('BREST3','BPage3');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BREST3" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('BPage4','BREST3');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BPage4" style="display:none">
+               Long Arm Crunches
+               <img src="https://media.giphy.com/media/idkRxrCbhekdNnciE1/giphy.gif">
+                 30s
+                 <a href="#" onclick="return show('BREST4','BPage4');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BREST4" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('BPage5','BREST4');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BPage5" style="display:none">
+               Burpees
+               <img src="https://media.giphy.com/media/RlU6tOmsZLxvgfBdm1/giphy.gif ">
+               30s
+                 <a href="#" onclick="return show('BREST5','BPage5');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BREST5" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('BPage6','BREST5');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BPage6" style="display:none">
+               Mountain Climbers
+               <img src="https://media.giphy.com/media/iGFwZwNT54mOwTeDJy/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('BREST6','BPage6');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BREST6" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('BPage7','BREST6');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BPage7" style="display:none">
+               Planks
+               <img src="IMG_1205.JPG">
+               30s
+                 <a href="#" onclick="return show('BREST7','BPage7');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BREST7" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('BPage8','BREST7');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BPage8" style="display:none">
+               Russian Twist
+               <img src="https://media.giphy.com/media/JQAyrPog3tucUpEIEk/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('BREST8','BPage8');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BREST8" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('BPage9','BREST8');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BPage9" style="display:none">
+               Jumping Squats
+               <img src="https://media.giphy.com/media/JTngYuInCetup74PxR/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('BREST9','BPage9');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BREST9" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('BPage10','BREST9');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BPage10" style="display:none">
+               Bicycle Crunches
+               <img src="https://media.giphy.com/media/JQAyrPog3tucUpEIEk/giphy.gif">
+               30s
+                 <a href="#" onclick="return show('BREST10','BPage10');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BREST10" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('BPage11','BREST10');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BPage11" style="display:none">
+               Straight Arm Planks
+               <img src="IMG_1216.JPG">
+               30s
+                 <a href="#" onclick="return show('BREST11','BPage11');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BREST11" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('BPage12','BREST11');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BPage12" style="display:none">
+               Bridges
+               <img src="IMG_1231.JPG">
+               30s
+                 <a href="#" onclick="return show('BREST12','BPage12');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BREST12" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               10SEC
+               <a href="#" onclick="return show('BPage13','BREST12');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BPage13" style="display:none">
+               Reverse Crunches
+               <img src="https://media.giphy.com/media/Zad6hSi7ccRJfe6sgB/giphy.gif">
+               30s
+               <a href="#" onclick="return show('BREST13','BPage13');"><p><button class="buttonNEXT"> NEXT! </button></a>
+           </div>
+           <div id="BREST13" style="display:none">
+             REST
+             <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+             10SEC
+             <a href="#" onclick="return show('BPage14','BREST13');"><p><button class="buttonNEXT"> NEXT! </button></a>
+           </div>
+           <div id="BPage14" style="display:none">
+             Bird Dog
+             <img src="https://media.giphy.com/media/j6xOdPslRhflTu7qgw/giphy.gif
+   ">
+             30s
+               <a href="#" onclick="return show('BGOAL','BPage14');"><p><button class="buttonNEXT"> NEXT! </button></a>
+             </div>
+             <div id="BGOAL" style="display:none">
+               CONGRATS! YOU MADE IT THROUGH!
+           <div id="overlay"><center><img class = center src="http://ift.tt/2BOwjd9"></center> </div>
+               <canvas id="canvas"></canvas>
+           <embed src="Yay.mp3"
+            autostart="true"
+            hidden="false"
+            loop="false">
+            <noembed><bgsound src="Yay.mp3" loop="1"></noembed>
+            </embed>
+
+           </div>
+   </div>
+   </div>
+
+   <!-- body part -->
+
+   <div id="monWork" class="exercises">
+         <div id="Start">
+           <p>ADVANCED MONDAY</p>
+           <p>127kcal 10-16min</p>
+           <p>GO!button here</p>
+           <p>*Don't forget to drink water*</p>
+                 <a href="#" onclick="return show('Page1','Start');">Show page 1</a>
+               </div>
+                 <div id="Page1" style="display:none">
+                   Knee Push-Ups
+                 <img src="https://media.giphy.com/media/TLJ0CoA68H749d27Ed/giphy.gif">
+                  x10
+                   <a href="#" onclick="return show('REST1','Page1');">Show REST 1</a>
+                 </div>
+                 <div id="REST1" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('Page2','REST1');">Show page 2</a>
+                 </div>
+                 <div id="Page2" style="display:none">
+                   Cross Arm Crunches
+                     <img src="https://media.giphy.com/media/kFHXEFP2OVzD0GmRKp/giphy.gif
+   ">
+                   x20
+                   <a href="#" onclick="return show('REST2','Page2');">Show REST 2</a>
+                 </div>
+                 <div id="REST2" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('Page3','REST2');">Show page 3</a>
+                 </div>
+                 <div id="Page3" style="display:none">
+                   Push up
+                   <img src="https://media.giphy.com/media/h7zxHy0bSJg7hwtZkO/giphy.gif
+   ">
+                   x10
+                   <a href="#" onclick="return show('REST3','Page3');">Show REST 3</a>
+                 </div>
+                 <div id="REST3" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('Page4','REST3');">Show page 4</a>
+                 </div>
+                 <div id="Page4" style="display:none">
+                   Jumping Squats
+                   <img src="https://media.giphy.com/media/JTngYuInCetup74PxR/giphy.gif ">
+                     x20
+                     <a href="#" onclick="return show('REST4','Page4');">Show REST 4</a>
+                 </div>
+                 <div id="REST4" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('Page5','REST4');">Show page 5</a>
+                 </div>
+                 <div id="Page5" style="display:none">
+                   Side Lunges
+                   <img src="https://media.giphy.com/media/Phff61YSgCEKb1pl5i/giphy.gif
+   ">
+                   x10
+                     <a href="#" onclick="return show('REST5','Page5');">Show REST 5</a>
+                 </div>
+             <div id="REST5" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('Page6','REST5');">Show page 6</a>
+                 </div>
+             <div id="Page6" style="display:none">
+                   Push Up & Rotation
+                   <img src="https://media.giphy.com/media/JOQp9mMsqDb3IMke4W/giphy.gif">
+                   x10
+                     <a href="#" onclick="return show('REST6','Page6');">Show REST 6</a>
+                 </div>
+             <div id="REST6" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('Page7','REST6');">Show page 7</a>
+                 </div>
+             <div id="Page7" style="display:none">
+                   Side Lunges
+                   <img src="https://media.giphy.com/media/Phff61YSgCEKb1pl5i/giphy.gif
+   ">
+                   x10
+                     <a href="#" onclick="return show('REST7','Page7');">Show REST 7</a>
+                 </div>
+             <div id="REST7" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('Page8','REST7');">Show page 8</a>
+                 </div>
+
+             <div id="Page8" style="display:none">
+                   Plank
+                   <img src="IMG_1205.JPG">
+                   1 min
+                     <a href="#" onclick="return show('REST8','Page8');">Show REST 8</a>
+                 </div>
+
+             <div id="REST8" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('Page9','REST8');">Show page 9</a>
+                 </div>
+
+             <div id="Page9" style="display:none">
+                   Bridge
+                   <img src="IMG_1231.JPG">
+                   30s
+                     <a href="#" onclick="return show('GOAL','Page9');">Show REST 8</a>
+                 </div>
+
+             <div id="GOAL" style="display:none">
+                   Content of page GOAL
+                 <img class = center src="http://ift.tt/2BOwjd9">
+   </div>
+   </div>
+
+       <div id="tueWork" class="exercises">
+         <div id="TStart">
+           <p>ADVANCED TUESDAY</p>
+           <p>132kcal 10-15min</p>
+           <p>GO!button here</p>
+           <p>*Don't forget to drink water*</p>
+                 <a href="#" onclick="return show('TPage1','TStart');">Show page 1</a>
+               </div>
+                 <div id="TPage1" style="display:none">
+                 Jumping Jacks
+                 <img src="https://media.giphy.com/media/VCtXQKcVFsnUEMLWVM/giphy.gif
+   ">
+                  25s
+                   <a href="#" onclick="return show('TREST1','TPage1');">Show REST 1</a>
+                 </div>
+                 <div id="TREST1" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('TPage2','TREST1');">Show page 2</a>
+                 </div>
+                 <div id="TPage2" style="display:none">
+                   Abdominal Crunches
+                     <img src="https://media.giphy.com/media/eGlxldHBrAVH470oIw/giphy.gif
+   ">
+                   25x
+                   <a href="#" onclick="return show('TREST2','TPage2');">Show REST 2</a>
+                 </div>
+                 <div id="TREST2" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('TPage3','TREST2');">Show page 3</a>
+                 </div>
+                 <div id="TPage3" style="display:none">
+                   Split Squat Left
+                   <img src="https://giphy.com/gifs/ZG0KksRCbKjsNb96a7 ">
+                   x10
+                   <a href="#" onclick="return show('TREST3','TPage3');">Show REST 3</a>
+                 </div>
+                 <div id="TREST3" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('TPage4','TREST3');">Show page 4</a>
+                 </div>
+                 <div id="TPage4" style="display:none">
+                   Bicycle Crunches
+                   <img src="https://media.giphy.com/media/JQAyrPog3tucUpEIEk/giphy.gif ">
+                     x26
+                     <a href="#" onclick="return show('TREST4','TPage4');">Show REST 4</a>
+                 </div>
+                 <div id="TREST4" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('TPage5','TREST4');">Show page 5</a>
+                 </div>
+                 <div id="TPage5" style="display:none">
+                   One Leg Push Ups
+                   <img src="https://giphy.com/gifs/lTSo1MllILaliLSkm5 ">
+                   x10
+                     <a href="#" onclick="return show('TREST5','TPage5');">Show REST 5</a>
+                 </div>
+             <div id="TREST5" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('TPage6','TREST5');">Show page 6</a>
+                 </div>
+             <div id="TPage6" style="display:none">
+                   Split Squat Right
+                   <img src="https://giphy.com/gifs/SUWuQ4hFCxLhUHI00S">
+                   x25
+                     <a href="#" onclick="return show('TREST6','TPage6');">Show REST 6</a>
+                 </div>
+             <div id="TREST6" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('TPage7','TREST6');">Show page 7</a>
+                 </div>
+             <div id="TPage7" style="display:none">
+                   Wide Arm Push Ups
+                   <img src="https://media.giphy.com/media/h7zxHy0bSJg7hwtZkO/giphy.gif">
+                   x10
+                     <a href="#" onclick="return show('TREST7','TPage7');">Show REST 7</a>
+                 </div>
+             <div id="TREST7" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('TPage8','TREST7');">Show page 8</a>
+                 </div>
+
+             <div id="TPage8" style="display:none">
+                   High Stepping
+                   <img src="https://media.giphy.com/media/cKhRoIxupfWk0I38Wi/giphy.gif ">
+                   25s
+                     <a href="#" onclick="return show('TREST8','TPage8');">Show REST 8</a>
+                 </div>
+
+             <div id="TREST8" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('TPage9','TREST8');">Show page 9</a>
+                 </div>
+
+             <div id="TPage9" style="display:none">
+                   Side Plank right
+                   <img src="IMG_1222.JPG">
+                   40s
+                     <a href="#" onclick="return show('TREST9','TPage9');">Show REST 9</a>
+                 </div>
+
+            <div id="TREST9" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('TPage10','TREST9');">Show page 10</a>
+                 </div>
+
+            <div id="TPage10" style="display:none">
+                   Side Plank Left
+                   <img src="IMG_1222.JPG">
+                   40s
+                     <a href="#" onclick="return show('TGOAL','TPage10');">Show GOAL</a>
+                 </div>
+
+             <div id="TGOAL" style="display:none">
+                 <div id="overlay"><center><img class = center src="http://ift.tt/2BOwjd9"></center> </div>
+               <canvas id="canvas"></canvas>
+           <embed src="Yay.mp3"
+            autostart="true"
+            hidden="false"
+            loop="false">
+            <noembed><bgsound src="Yay.mp3" loop="1"></noembed>
+            </embed>
+           </div>
+   </div>
+   </div>
+
+           <div id="thurWork" class="exercises">
+         <div id="HStart">
+           <p>ADVANCED THURSDAY</p>
+           <p>159kcal 12-18min</p>
+                 <a href="#" onclick="return show('HPage1','HStart');"><p><button class="buttonGO"> START! </button></a>
+                 <font size="10">*Don't forget to drink water*</font>
+                 <img src="https://library.kissclipart.com/20180904/fbe/kissclipart-water-splash-png-clipart-drinking-water-clip-art-d1aeb788b0d4de1d.png" style="width:1500px;height:300px;">
+               </div>
+                 <div id="HPage1" style="display:none">
+                 Jumping Jacks
+                 <img src="https://media.giphy.com/media/VCtXQKcVFsnUEMLWVM/giphy.gif
+   ">
+                  25s
+                   <a href="#" onclick="return show('HREST1','HPage1');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+                 <div id="HREST1" style="display:none">
+                   REST
+                   <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                   30SEC
+                   <a href="#" onclick="return show('HPage2','HREST1');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+                 <div id="HPage2" style="display:none">
+                   Cross Arm Crunches
+                     <img src="https://media.giphy.com/media/kFHXEFP2OVzD0GmRKp/giphy.gif
+   ">
+                   30x
+                   <a href="#" onclick="return show('HREST2','HPage2');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+                 <div id="HREST2" style="display:none">
+                   REST
+                   <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                   30SEC
+                   <a href="#" onclick="return show('HPage3','HREST2');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+                 <div id="HPage3" style="display:none">
+                   Reverse crunches
+                   <img src="https://media.giphy.com/media/Jq7MLYS48golExSGga/giphy.gif">
+                   x30
+                   <a href="#" onclick="return show('HREST3','HPage3');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+                 <div id="HREST3" style="display:none">
+                   REST
+                   <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                   30SEC
+                   <a href="#" onclick="return show('HPage4','HREST3');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+                 <div id="HPage4" style="display:none">
+                   Incline Push Ups
+                   <img src="https://media.giphy.com/media/Jq7MLYS48golExSGga/giphy.gif ">
+                     x12
+                     <a href="#" onclick="return show('HREST4','HPage4');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+                 <div id="HREST4" style="display:none">
+                   REST
+                   <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                   30SEC
+                   <a href="#" onclick="return show('HPage5','HREST4');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+                 <div id="HPage5" style="display:none">
+                   Push Up & Rotation
+                   <img src="https://media.giphy.com/media/JOQp9mMsqDb3IMke4W/giphy.gif">
+                   x10
+                     <a href="#" onclick="return show('HREST5','HPage5');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+             <div id="HREST5" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               30SEC
+                     <a href="#" onclick="return show('HPage6','HREST5');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+             <div id="HPage6" style="display:none">
+                   Burpees
+                   <img src="https://media.giphy.com/media/RlU6tOmsZLxvgfBdm1/giphy.gif
+   ">
+                   x10
+                     <a href="#" onclick="return show('HREST6','HPage6');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+             <div id="HREST6" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               30SEC
+                     <a href="#" onclick="return show('HPage7','HREST6');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+             <div id="HPage7" style="display:none">
+                   Decline Push Ups
+                   <img src="https://media.giphy.com/media/RLoNMtUPisutRtadaQ/giphy.gif ">
+                   x10
+                     <a href="#" onclick="return show('HREST7','HPage7');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+             <div id="HREST7" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               30SEC
+                     <a href="#" onclick="return show('HPage8','HREST7');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+
+             <div id="HPage8" style="display:none">
+                   Left Lunge Knee Hops
+                   <img src="https://media.giphy.com/media/lnn4AcFWpvYlo1eRA1/giphy.gif
+   ">
+                   30x
+                     <a href="#" onclick="return show('HREST8','HPage8');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+
+             <div id="HREST8" style="display:none">
+               REST
+               <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+               30SEC
+                     <a href="#" onclick="return show('HPage9','HREST8');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+
+             <div id="HPage9" style="display:none">
+                   Right Lunge Knee Hops
+                   <img src="https://media.giphy.com/media/lmv44ouGg8V2GwiJn0/giphy.gif">
+                   30x
+                     <a href="#" onclick="return show('HREST9','HPage9');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+
+            <div id="HREST9" style="display:none">
+              REST
+              <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+              30SEC
+                     <a href="#" onclick="return show('HPage10','HREST9');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+
+            <div id="HPage10" style="display:none">
+                   Plank
+                   <img src="IMG_1205.JPG">
+                   35s
+                     <a href="#" onclick="return show('HREST10','HPage10');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+
+               <div id="HREST10" style="display:none">
+                 REST
+                 <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                 30SEC
+                     <a href="#" onclick="return show('HPage11','HREST10');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+
+            <div id="HPage11" style="display:none">
+                   Side Plank Left
+                   <img src="IMG_1222.JPG">
+                   40s
+                     <a href="#" onclick="return show('HGOAL','HPage11');"><p><button class="buttonNEXT"> NEXT! </button></a>
+                 </div>
+
+             <div id="HGOAL" style="display:none">
+                      <div id="overlay"><center><img class = center src="http://ift.tt/2BOwjd9"></center> </div>
+               <canvas id="canvas"></canvas>
+           <embed src="Yay.mp3"
+            autostart="true"
+            hidden="false"
+            loop="false">
+            <noembed><bgsound src="Yay.mp3" loop="1"></noembed>
+            </embed>
+           </div>
+   </div>
+   </div>
+
+           <div id="friWork" class="exercises">
+         <div id="FStart">
+           <p>ADVANCED FRIDAY</p>
+           <p>178kcal 12-19min</p>
+           <p>GO!button here</p>
+           <p>*Don't forget to drink water*</p>
+                 <a href="#" onclick="return show('FPage1','FStart');">Show page 1</a>
+               </div>
+                 <div id="FPage1" style="display:none">
+                 Tricep Dips
+                 <img src="https://media.giphy.com/media/MZvbixnXsuyHWOrCGQ/giphy.gif
+   ">
+                  x10
+                   <a href="#" onclick="return show('FREST1','FPage1');">Show REST 1</a>
+                 </div>
+                 <div id="FREST1" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('FPage2','FREST1');">Show page 2</a>
+                 </div>
+                 <div id="FPage2" style="display:none">
+                   Jumping Squats
+                     <img src="https://media.giphy.com/media/JTngYuInCetup74PxR/giphy.gif
+   ">
+                   30x
+                   <a href="#" onclick="return show('FREST2','FPage2');">Show REST 2</a>
+                 </div>
+                 <div id="FREST2" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('FPage3','FREST2');">Show page 3</a>
+                 </div>
+                 <div id="FPage3" style="display:none">
+                   Push Up & Rotation
+                   <img src="https://media.giphy.com/media/JOQp9mMsqDb3IMke4W/giphy.gif">
+                   x12
+                   <a href="#" onclick="return show('FREST3','FPage3');">Show REST 3</a>
+                 </div>
+                 <div id="FREST3" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('FPage4','FREST3');">Show page 4</a>
+                 </div>
+                 <div id="FPage4" style="display:none">
+                   Russian Twist
+                   <img src="https://media.giphy.com/media/JQAyrPog3tucUpEIEk/giphy.gif
+   ">
+                     x36
+                     <a href="#" onclick="return show('FREST4','FPage4');">Show REST 4</a>
+                 </div>
+                 <div id="FREST4" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('FPage5','FREST4');">Show page 5</a>
+                 </div>
+                 <div id="FPage5" style="display:none">
+                   Staggered Push Ups
+                   <img src="https://giphy.com/gifs/JqzJVnPvW8kUn42gFm">
+                   x11
+                     <a href="#" onclick="return show('FREST5','FPage5');">Show REST 5</a>
+                 </div>
+             <div id="FREST5" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('FPage6','FREST5');">Show page 6</a>
+                 </div>
+             <div id="FPage6" style="display:none">
+                   Backward Lunge with Front Kick Right
+                   <img src="https://giphy.com/gifs/QB4D0tAa14HGcR9EWN
+   ">
+                   x35
+                     <a href="#" onclick="return show('FREST6','FPage6');">Show REST 6</a>
+                 </div>
+             <div id="FREST6" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('FPage7','FREST6');">Show page 7</a>
+                 </div>
+             <div id="FPage7" style="display:none">
+                   Backward Lunge with Front Kick Left
+                   <img src="https://giphy.com/gifs/hTUB0wzCbIQ9yAWKSK">
+                   x35
+                     <a href="#" onclick="return show('FREST7','FPage7');">Show REST 7</a>
+                 </div>
+             <div id="FREST7" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('FPage8','FREST7');">Show page 8</a>
+                 </div>
+
+             <div id="FPage8" style="display:none">
+                   High Stepping
+                   <img src="https://media.giphy.com/media/cKhRoIxupfWk0I38Wi/giphy.gif
+   ">
+                   30s
+                     <a href="#" onclick="return show('FREST8','FPage8');">Show REST 8</a>
+                 </div>
+
+             <div id="FREST8" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('FPage9','FREST8');">Show page 9</a>
+                 </div>
+
+             <div id="FPage9" style="display:none">
+                   Bridge
+                   <img src="IMG_1231.JPG">
+                   40s
+                     <a href="#" onclick="return show('FREST9','FPage9');">Show REST 9</a>
+                 </div>
+
+            <div id="FREST9" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('FPage10','FREST9');">Show page 10</a>
+                 </div>
+
+            <div id="FPage10" style="display:none">
+                   Side Plank Right
+                   <img src="IMG_1222.JPG">
+                   40s
+                     <a href="#" onclick="return show('FREST10','FPage10');">Show REST 10</a>
+                 </div>
+
+               <div id="FREST10" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('FPage11','FREST10');">Show page 11</a>
+                 </div>
+
+            <div id="FPage11" style="display:none">
+                   Side Plank Left
+                   <img src="IMG_1222.JPG">
+                   40s
+                     <a href="#" onclick="return show('FGOAL','FPage11');">Show GOAL</a>
+                 </div>
+
+             <div id="FGOAL" style="display:none">
+                   Content of page GOAL
+                 <img class = center src="http://ift.tt/2BOwjd9">
+   </div>
+   </div>
+
+
+
+           <div id="satWork" class="exercises">
+         <div id="SStart">
+           <p>ADVANCED SATURDAY</p>
+           <p>210kcal 14-21min</p>
+           <p>GO!button here</p>
+           <p>*Don't forget to drink water*</p>
+                 <a href="#" onclick="return show('SPage1','SStart');">Show page 1</a>
+               </div>
+                 <div id="SPage1" style="display:none">
+                 Jumping Jacks
+                 <img src="https://media.giphy.com/media/VCtXQKcVFsnUEMLWVM/giphy.gif
+   ">
+                  30s
+                   <a href="#" onclick="return show('SREST1','SPage1');">Show REST 1</a>
+                 </div>
+                 <div id="SREST1" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('SPage2','SREST1');">Show page 2</a>
+                 </div>
+                 <div id="SPage2" style="display:none">
+                   Squats
+                     <img src="https://giphy.com/gifs/iDCfgMHON6vvt6ml0G">
+                   40x
+                   <a href="#" onclick="return show('SREST2','SPage2');">Show REST 2</a>
+                 </div>
+                 <div id="SREST2" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('SPage3','SREST2');">Show page 3</a>
+                 </div>
+                 <div id="SPage3" style="display:none">
+                   Knee Push Ups
+                   <img src="https://media.giphy.com/media/TLJ0CoA68H749d27Ed/giphy.gif
+   ">
+                   x12
+                   <a href="#" onclick="return show('SREST3','SPage3');">Show REST 3</a>
+                 </div>
+                 <div id="SREST3" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('SPage4','SREST3');">Show page 4</a>
+                 </div>
+                 <div id="SPage4" style="display:none">
+                   Curtsy Lunges
+                   <img src="https://media.giphy.com/media/eNR84UTWfji1iMMN0E/giphy.gif
+   ">
+                     x36
+                     <a href="#" onclick="return show('SREST4','SPage4');">Show REST 4</a>
+                 </div>
+                 <div id="SREST4" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('SPage5','SREST4');">Show page 5</a>
+                 </div>
+                 <div id="SPage5" style="display:none">
+                   Bicycle Crunches
+                   <img src="https://media.giphy.com/media/JQAyrPog3tucUpEIEk/giphy.gif ">
+                   x40
+                     <a href="#" onclick="return show('SREST5','SPage5');">Show REST 5</a>
+                 </div>
+             <div id="SREST5" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('SPage6','SREST5');">Show page 6</a>
+                 </div>
+             <div id="SPage6" style="display:none">
+                   One Leg Push Ups
+                   <img src="https://giphy.com/gifs/lTSo1MllILaliLSkm5
+   ">
+                   x12
+                     <a href="#" onclick="return show('SREST6','SPage6');">Show REST 6</a>
+                 </div>
+             <div id="SREST6" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('SPage7','SREST6');">Show page 7</a>
+                 </div>
+             <div id="SPage7" style="display:none">
+                   Plank 1 min
+                   <img src="IMG_1205.JPG">
+                   x35
+                     <a href="#" onclick="return show('SREST7','SPage7');">Show REST 7</a>
+                 </div>
+             <div id="SREST7" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('SPage8','SREST7');">Show page 8</a>
+                 </div>
+
+             <div id="SPage8" style="display:none">
+                   Diamond Push Ups
+                   <img src="https://media.giphy.com/media/lSxZl0cnpVuWS5SRnw/giphy.gif ">
+                   10x
+                     <a href="#" onclick="return show('SREST8','SPage8');">Show REST 8</a>
+                 </div>
+
+             <div id="SREST8" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('SPage9','SREST8');">Show page 9</a>
+                 </div>
+
+             <div id="SPage9" style="display:none">
+                   Mountain Climber
+                   <img src=" https://media.giphy.com/media/iGFwZwNT54mOwTeDJy/giphy.gif
+   ">
+                   40x
+                     <a href="#" onclick="return show('SREST9','SPage9');">Show REST 9</a>
+                 </div>
+
+            <div id="SREST9" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('SPage10','SREST9');">Show page 10</a>
+                 </div>
+
+            <div id="SPage10" style="display:none">
+                   High Stepping
+                   <img src="https://media.giphy.com/media/cKhRoIxupfWk0I38Wi/giphy.gif
+   ">
+                   30s
+                     <a href="#" onclick="return show('SREST10','SPage10');">Show REST 10</a>
+                 </div>
+
+               <div id="SREST10" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('SPage11','SREST10');">Show page 11</a>
+                 </div>
+
+            <div id="SPage11" style="display:none">
+                   Plank
+                   <img src="IMG_1205.JPG">
+                   40s
+                     <a href="#" onclick="return show('SGOAL','SPage11');">Show GOAL</a>
+                 </div>
+
+             <div id="SGOAL" style="display:none">
+                   Content of page GOAL
+                 <img class = center src="http://ift.tt/2BOwjd9">
+   </div>
+   </div>
+
+            <div id="sunWork" class="exercises">
+         <div id="UStart">
+           <p>ADVANCED SUNDAY</p>
+           <p>206kcal 14-21min</p>
+           <p>GO!button here</p>
+           <p>*Don't forget to drink water*</p>
+                 <a href="#" onclick="return show('UPage1','UStart');">Show page 1</a>
+               </div>
+                 <div id="UPage1" style="display:none">
+                 Push Up
+                 <img src="https://media.giphy.com/media/h7zxHy0bSJg7hwtZkO/giphy.gif
+   ">
+                  12x
+                   <a href="#" onclick="return show('UREST1','UPage1');">Show REST 1</a>
+                 </div>
+                 <div id="UREST1" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('UPage2','UREST1');">Show page 2</a>
+                 </div>
+                 <div id="UPage2" style="display:none">
+                   Tricep Dip
+                     <img src="https://media.giphy.com/media/MZvbixnXsuyHWOrCGQ/giphy.gif
+   ">
+                   x12
+                   <a href="#" onclick="return show('UREST2','UPage2');">Show REST 2</a>
+                 </div>
+                 <div id="UREST2" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('UPage3','UREST2');">Show page 3</a>
+                 </div>
+                 <div id="UPage3" style="display:none">
+                   Long Arm Crunches
+                   <img src="https://media.giphy.com/media/idkRxrCbhekdNnciE1/giphy.gif
+   ">
+                   x40
+                   <a href="#" onclick="return show('UREST3','UPage3');">Show REST 3</a>
+                 </div>
+                 <div id="UREST3" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('UPage4','UREST3');">Show page 4</a>
+                 </div>
+                 <div id="UPage4" style="display:none">
+                   Jumping Squats
+                   <img src="https://media.giphy.com/media/JTngYuInCetup74PxR/giphy.gif
+   ">
+                     x35
+                     <a href="#" onclick="return show('UREST4','UPage4');">Show REST 4</a>
+                 </div>
+                 <div id="UREST4" style="display:none">
+                   30s REST
+                   <a href="#" onclick="return show('UPage5','UREST4');">Show page 5</a>
+                 </div>
+                 <div id="UPage5" style="display:none">
+                   Curtsy Lunges
+                   <img src="https://media.giphy.com/media/eNR84UTWfji1iMMN0E/giphy.gif
+   ">
+                   x40
+                     <a href="#" onclick="return show('UREST5','UPage5');">Show REST 5</a>
+                 </div>
+             <div id="UREST5" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('UPage6','UREST5');">Show page 6</a>
+                 </div>
+             <div id="UPage6" style="display:none">
+                   Staggered Push Ups
+                   <img src="https://giphy.com/gifs/JqzJVnPvW8kUn42gFm">
+                   x11
+                     <a href="#" onclick="return show('UREST6','UPage6');">Show REST 6</a>
+                 </div>
+             <div id="UREST6" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('UPage7','UREST6');">Show page 7</a>
+                 </div>
+             <div id="UPage7" style="display:none">
+                   One Leg Bridge
+                   <img src="IMG_1232.JPG">
+                   x45
+                     <a href="#" onclick="return show('UREST7','UPage7');">Show REST 7</a>
+                 </div>
+             <div id="UREST7" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('UPage8','UREST7');">Show page 8</a>
+                 </div>
+
+             <div id="UPage8" style="display:none">
+                   High Stepping
+                   <img src="https://media.giphy.com/media/cKhRoIxupfWk0I38Wi/giphy.gif ">
+                   35s
+                     <a href="#" onclick="return show('UREST8','UPage8');">Show REST 8</a>
+                 </div>
+
+             <div id="UREST8" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('UPage9','UREST8');">Show page 9</a>
+                 </div>
+
+             <div id="UPage9" style="display:none">
+                   Side Plank Right
+                   <img src="IMG_1222.JPG">
+                   45s
+                     <a href="#" onclick="return show('UREST9','UPage9');">Show REST 9</a>
+                 </div>
+
+            <div id="UREST9" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('UPage10','UREST9');">Show page 10</a>
+                 </div>
+
+            <div id="UPage10" style="display:none">
+                   Wall Sit
+                   <img src="https://media.giphy.com/media/lnsofFV7oLYV2Ljq9H/giphy.gif
+   ">
+                   50s
+                     <a href="#" onclick="return show('UREST10','UPage10');">Show REST 10</a>
+                 </div>
+
+               <div id="UREST10" style="display:none">
+                   30s REST
+                     <a href="#" onclick="return show('UPage11','UREST10');">Show page 11</a>
+                 </div>
+
+            <div id="UPage11" style="display:none">
+                   Side Plank Left
+                   <img src="IMG_1222.JPG">
+                   45s
+                     <a href="#" onclick="return show('UGOAL','UPage11');">Show GOAL</a>
+                 </div>
+
+             <div id="UGOAL" style="display:none">
+                   Content of page GOAL
+                 <img class = center src="http://ift.tt/2BOwjd9">
+   </div>
+   </div>
+
+     <div id="wednesdayRest" class="exercises">
+     <!--section text 2 -->
+         <section class="section section-dark">
+             <h2>Have a Rest Day!</h2>
+               <h3>Why?</h3>
+                <p>
+                 After 6 consecutive days of practice, you should always have some blablablablaalbala
+                 </p>
+                 <img class = center src="http://ift.tt/2BOwjd9">
+
+         </section>
+       </div>
+
+       <div id="recWork" class="exercises">
+          <div id="RStart">
+                <p>SCIENTIFICALLY PROVEN 7-MINUTE WORKOUT</p>
+                <img src="https://static01.nyt.com/images/2013/05/12/health/12well_physed/12well_physed-tmagArticle.jpg">
+                  <a href="#" onclick="return show('RPage1','RStart');"><br><button class="buttonGO"> START! </button></a>
+
+                </div>
+                  <div id="RPage1" style="display:none">
+                  Jumping Jacks
+                  <img src="https://media.giphy.com/media/VCtXQKcVFsnUEMLWVM/giphy.gif">
+                   30sec
+                     <div class="countdown30"></div>
+                    <a href="#" onclick="return show('RREST1','RPage1');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RREST1" style="display:none">
+                    REST
+                    <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                    10SEC
+                    <div class="countdown10"></div>
+                    <a href="#" onclick="return show('RPage2','RREST1');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RPage2" style="display:none">
+                    Wall-Sit
+                      <img src="https://media.giphy.com/media/lnsofFV7oLYV2Ljq9H/giphy.gif ">
+                      30sec
+                       <div id="countdown30"></div>
+                    <a href="#" onclick="return show('RREST2','RPage2');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RREST2" style="display:none">
+                    REST
+                    <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                    10SEC
+                    <a href="#" onclick="return show('RPage3','RREST2');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RPage3" style="display:none">
+                    Push-Ups
+                    <img src="https://media.giphy.com/media/h7zxHy0bSJg7hwtZkO/giphy.gif
+    ">
+                    30sec
+
+                    <div id="countdown30"></div>
+                    <a href="#" onclick="return show('RREST3','RPage3');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RREST3" style="display:none">
+                    REST
+                    <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                    10SEC
+                    <a href="#" onclick="return show('RPage4','RREST3');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RPage4" style="display:none">
+                    Abdominal Crunches
+                    <img src="https://media.giphy.com/media/eGlxldHBrAVH470oIw/giphy.gif">
+                      30sec
+                      <div id="countdown30"></div>
+                      <a href="#" onclick="return show('RREST4','RPage4');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RREST4" style="display:none">
+                    REST
+                    <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                    10SEC
+                    <a href="#" onclick="return show('RPage5','RREST4');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RPage5" style="display:none">
+                    Step-Up Onto Chair
+                    <img src="https://media.giphy.com/media/QVavOHPiVStqXZJ5nJ/giphy.gif">
+                    30sec
+                    <div id="countdown30"></div>
+                      <a href="#" onclick="return show('RREST5','RPage5');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RREST5" style="display:none">
+                    REST
+                    <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                    10SEC
+                    <a href="#" onclick="return show('RPage6','RREST5');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RPage6" style="display:none">
+                    Squats
+                <img src="https://media.giphy.com/media/iDCfgMHON6vvt6ml0G/giphy.gif">
+                      30sec
+                      <div id="countdown30"></div>
+                      <a href="#" onclick="return show('RREST6','RPage6');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RREST6" style="display:none">
+                    REST
+                    <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                    10SEC
+                    <a href="#" onclick="return show('RPage7','RREST6');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RPage7" style="display:none">
+                    Triceps Dip on Chair
+                    <img src="https://media.giphy.com/media/MZvbixnXsuyHWOrCGQ/giphy.gif
+    ">
+                      30s
+                      <div id="countdown30"></div>
+                      <a href="#" onclick="return show('RREST7','RPage7');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RREST7" style="display:none">
+                    REST
+                    <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                    10SEC
+                    <a href="#" onclick="return show('RPage8','RREST7');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RPage8" style="display:none">
+                    Planks
+                    <img src="IMG_1205.JPG">
+                      30sec
+                      <div id="countdown30"></div>
+                      <a href="#" onclick="return show('RREST8','RPage8');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RREST8" style="display:none">
+                    REST
+                    <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                    10SEC
+                    <a href="#" onclick="return show('RPage9','RREST8');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RPage9" style="display:none">
+                    High-Knees Running in Place
+                    <img src="https://media.giphy.com/media/cKhRoIxupfWk0I38Wi/giphy.gif">
+                      30sec
+                      <div id="countdown30"></div>
+                      <a href="#" onclick="return show('RREST9','RPage9');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RREST9" style="display:none">
+                    REST
+                    <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                    10SEC
+                    <a href="#" onclick="return show('RPage10','RREST9');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RPage10" style="display:none">
+                    Lunges
+                    <img src="https://media.giphy.com/media/QWRd2zpvlps1VW2MAY/giphy.gif
+    ">
+                      30s
+                      <a href="#" onclick="return show('RREST10','RPage10');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RREST10" style="display:none">
+                    REST
+                    <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                    10SEC
+                    <a href="#" onclick="return show('RPage11','RREST10');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RPage11" style="display:none">
+                    Push-Up & Rotation
+                    <img src="https://media.giphy.com/media/JOQp9mMsqDb3IMke4W/giphy.gif">
+                      30s
+                      <a href="#" onclick="return show('RREST11','RPage11');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RREST11" style="display:none">
+                    REST
+                    <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                    10SEC
+                    <a href="#" onclick="return show('RPage12','RREST11');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RPage12" style="display:none">
+                    Side-Planks
+                    <img src="IMG_1222.JPG">
+                      30s
+                      <a href="#" onclick="return show('RREST12','RPage12');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RREST12" style="display:none">
+                    REST
+                    <img src="https://media.giphy.com/media/kcBwE27ReVKZsllmN7/giphy.gif">
+                    10SEC
+                    <a href="#" onclick="return show('RPage13','RREST12');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RPage13" style="display:none">
+                    Push-Up & Rotation
+                    <img src="https://media.giphy.com/media/JOQp9mMsqDb3IMke4W/giphy.gif
+    ">
+                      30s
+                      <a href="#" onclick="return show('RGOAL','RPage13');"><button class="buttonNEXT"> NEXT! </button></a>
+                  </div>
+                  <div id="RGOAL" style="display:none">
+                  CONGRATS! YOU MADE IT THROUGH!
+            <div id="overlay"><center><img class = center src="http://ift.tt/2BOwjd9"></center> </div>
+                <canvas id="canvasR"></canvas>
+            <embed src="Yay.mp3"
+             autostart="true"
+             hidden="false"
+             loop="false">
+             <noembed><bgsound src="Yay.mp3" loop="1"></noembed>
+             </embed>
+
+            </div>
+    </div>
+    </div>
+
+
+
+<script src="third.js"></script>
+</body>
+</html>

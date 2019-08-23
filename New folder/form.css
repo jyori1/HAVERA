@@ -1,0 +1,100 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+
+}
+
+.form {
+  text-align: center;
+}
+
+header{
+    background-image:url('https://wallpapercave.com/wp/wp1828829.jpg');
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top:25px;
+    text-transform: uppercase;
+
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;  /* #fff solid border if not transparent */
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* If you want to make the block solid white
+ul li.active a{
+     background-color: #fff;
+    color: #000;
+
+}
+*/
+
+
+iframe {
+  border: none;
+  box-shadow: 10px 20px #0B3954;
+  margin: 0 auto;
+
+}
+
+.songg{
+  text-align: center;
+}
+
+.logo {
+    float: left;
+    width:150px;
+    height:auto;
+}
+
+param {
+  margin-top: 2%;
+}
+
+.impact {
+  font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif;
+  color: white;
+  text-shadow: 5px 5px #0B3954;
+  margin-bottom: 2%;
+  font-size: 50px;
+  margin-top: 2%;
+}
+
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;

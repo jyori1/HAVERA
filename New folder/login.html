@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Log In</title>
+        <link rel="stylesheet" href="parallax.css">
+        <link rel="stylesheet" href="heading.css">
+        <link rel="stylesheet" href="form.css">
+        <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+         <!-- imported from google fonts -->
+
+    </head>
+<body>
+
+ <header>
+     <style> background-attachment:scroll;  </style>
+    <div class="main">
+        <div class="logo">
+            <img src="logo.png"> <!-- insert logo -->
+        </div>
+        <ul>
+            <li><a href="parallax.html">Home</a> </li>
+            <li><a href="exercise.html">Exercise</a> </li>
+            <li><a href="calendar.html">Food Calendar</a> </li>
+            <li><a href="login.html">Login</a> </li>
+            <li><a href="contact.html">Contact</a> </li>
+        </ul>
+       </div>
+
+        <div class="title">
+            <h1>Log In</h1>
+        </div>
+    </header>
+<!-- <form method="post" action="connect.php"> -->
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>
+  <table>
+    <div class="form">
+    <!-- <tr>
+      <td>
+          Name:
+      </td>
+      <td>
+          <input type="text" placeholder="Name" name="">
+      </td>
+    </tr> -->
+    <!-- <tr>
+      <td>
+      Gender:
+      </td>
+      <td>
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female
+        <input type="radio" name="Gender">Other
+      </td>
+    </tr> -->
+      <td>
+        Username:
+      </td>
+      <td>
+        <input type="text" placeholder="Username" name="user">
+      </td>
+      <tr>
+        <td>
+        Password:
+        </td>
+        <td>
+          <input type="Password" placeholder="Password" name="password">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="Submit" value="Submit" name="">
+        </td>
+      </tr>
+    </div>
+  </table>
+</form>
+<h4>Don't have an account? Sign up <a href="signup.html">here</a><h4>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif; /*change font */
+    font-weight:400; /* boldness */
+    line-height:1.8em;
+    color:#666;
+}
+
+
+.logo {
+    float: left;
+    width:75px;
+    height:auto;
+}
+
+
+header{
+    background-attachment:scroll;
+}
+
+.pimg, .pimg2, .pimg3{
+    position:relative;
+    opacity:100; /*nani change 0.7 */
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    /*fixed = parallax
+    scroll = normal
+   */
+}
+
+.pimg{
+    background-image:url("https://d2vvqscadf4c1f.cloudfront.net/f5TxZkilQpu05jCTm2yW_freedom3.png");
+    min-height:100%;
+    /* full size background  = 100%*/
+}
+
+.pimg2{
+    background-image:url("https://steemitimages.com/DQmVsEgajLiXE2N4EjoodaQEgKDgqGpoV7mW5RMEKHYxB9E/o-HAPPY-PEOPLE-facebook.jpg");
+    min-height:400px;
+
+    /* takes up a certain amount of space */
+}
+
+.pimg3{
+    background-image:url("https://z9u1l3wusky40y46t31hrkw2-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/8-proven-ways-exercise-makes-you-happier-MAIN.jpg");
+    min-height:400px;
+}
+
+/* fade in */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.section{
+
+    /* text-align:center; */
+    padding:50px 80px;
+  /*  animation: fadeIn 5s; could change fade-in time */
+}
+
+.sec1{
+    animation: fadeIn 5s;
+    text-align: left;
+}
+
+.sec2 {
+  text-align: right;
+}
+.section-light{
+    background-color:#f4f4f4;
+    color:#666;
+}
+
+.section-dark{
+ background-color:#282e34;
+    color:#ddd;
+
+}
+
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+
+}
+
+.ptext .border {
+  background-color:RGBA(200,29,37,0.44);
+  color:#fff;
+  padding:20px;
+}
+
+
+/* make it transparent? */
+.ptext .border.trans{
+    background-color:transparent;
+}
+
+/*
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment:scroll;
+}*/
